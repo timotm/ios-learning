@@ -14,7 +14,7 @@ class RootViewController: UITabBarController {
         let homeViewController = HomeViewController()
         homeViewController.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "house"), tag: 1)
         
-        let presetsViewController = SettingsViewController()
+        let presetsViewController = PresetsViewController()
         presetsViewController.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "slider.horizontal.3"), tag: 2)
 
         let journalViewController = JournalViewController()

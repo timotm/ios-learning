@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		DF4E9B7C25C7DDD900E3C5A4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E9B7B25C7DDD900E3C5A4 /* SettingsViewController.swift */; };
 		DF4E9B7F25C7DE9F00E3C5A4 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E9B7E25C7DE9F00E3C5A4 /* JournalViewController.swift */; };
 		DF4E9B8225C7DF9400E3C5A4 /* PresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E9B8125C7DF9400E3C5A4 /* PresetsViewController.swift */; };
+		DF4E9B8825CBCF4D00E3C5A4 /* PresetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E9B8725CBCF4C00E3C5A4 /* PresetsView.swift */; };
+		DF4E9B8F25CC235100E3C5A4 /* PresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E9B8E25CC235000E3C5A4 /* PresetView.swift */; };
+		DF4E9B9225CC284700E3C5A4 /* PresetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E9B9125CC284700E3C5A4 /* PresetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		DF4E9B7B25C7DDD900E3C5A4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DF4E9B7E25C7DE9F00E3C5A4 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		DF4E9B8125C7DF9400E3C5A4 /* PresetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsViewController.swift; sourceTree = "<group>"; };
+		DF4E9B8725CBCF4C00E3C5A4 /* PresetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsView.swift; sourceTree = "<group>"; };
+		DF4E9B8E25CC235000E3C5A4 /* PresetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetView.swift; sourceTree = "<group>"; };
+		DF4E9B9125CC284700E3C5A4 /* PresetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,6 @@
 				36266DB76C0A389672F639C7 /* Pods-meditation.debug.xcconfig */,
 				A7BFD1BA422065F65BEBF9F0 /* Pods-meditation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +91,9 @@
 				DF4E9B5F25C7D5D900E3C5A4 /* AppDelegate.swift */,
 				DF4E9B6325C7D5D900E3C5A4 /* RootViewController.swift */,
 				DF4E9B8125C7DF9400E3C5A4 /* PresetsViewController.swift */,
+				DF4E9B8725CBCF4C00E3C5A4 /* PresetsView.swift */,
+				DF4E9B8E25CC235000E3C5A4 /* PresetView.swift */,
+				DF4E9B9125CC284700E3C5A4 /* PresetViewController.swift */,
 				DF4E9B7E25C7DE9F00E3C5A4 /* JournalViewController.swift */,
 				DF4E9B7B25C7DDD900E3C5A4 /* SettingsViewController.swift */,
 				DF4E9B7825C7D78800E3C5A4 /* HomeViewController.swift */,
@@ -208,10 +216,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF4E9B6425C7D5D900E3C5A4 /* RootViewController.swift in Sources */,
+				DF4E9B8F25CC235100E3C5A4 /* PresetView.swift in Sources */,
 				DF4E9B6025C7D5D900E3C5A4 /* AppDelegate.swift in Sources */,
 				DF4E9B7925C7D78800E3C5A4 /* HomeViewController.swift in Sources */,
+				DF4E9B8825CBCF4D00E3C5A4 /* PresetsView.swift in Sources */,
 				DF4E9B7C25C7DDD900E3C5A4 /* SettingsViewController.swift in Sources */,
 				DF4E9B7F25C7DE9F00E3C5A4 /* JournalViewController.swift in Sources */,
+				DF4E9B9225CC284700E3C5A4 /* PresetViewController.swift in Sources */,
 				DF4E9B8225C7DF9400E3C5A4 /* PresetsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
